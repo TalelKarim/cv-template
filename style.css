@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+*{
+  font-size: 17px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Open Sans", "Arial";
+}
+#header a {
+  color: white;
+  display: block;
+  text-decoration: none; /* no underline */
+}
+
+/* Styling Header Section */
+#header {
+  background-color: black;
+  color: white;
+  height: 300px;
+  display: flex;
+}
+#name {
+  font-size: 90px;
+  font-weight: 500;
+  margin-top: 40px;
+  font-family: "Julius Sans One";
+  text-align: center;
+}
+#information {
+  margin-top: 15px;
+}
+#title {
+  text-align: center;
+  font-size: 30px;
+}
+#details {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.contact {
+  width: 45%;
+  align-items: center;
+  font-size: 25px;
+}
+#Mouauia-pic {
+  width: 260px;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+#left-header {
+  width: 300px;
+  height: 100%;
+}
+#right-header {
+  padding-top: 10px;
+  width: 100%;
+}
+.white {
+  color: white;
+  font-size: 22px;
+  margin: 5px;
+  vertical-align: center;
+}
+/* Styling Core Section */
+#professional-summary {
+  margin: 10px;
+}
+#core {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+#left-core {
+  width: 50%;
+  height: min-content;
+}
+#right-core {
+  width: 50%;
+  height: min-content;
+}
+.core-title {
+  font-size: 30px;
+  color: #016fb9;
+  font-weight: 600;
+  margin: 5px;
+}
+.core-text {
+  font-size: 20px;
+  margin-left: 10px;
+  width: 100%;
+}
+.core-text-large {
+  font-size: 20px;
+  margin-left: 10px;
+  width: 100%;
+}
+.tag {
+  background-color: black;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 2px;
+  margin-bottom: 5px;
+  padding: 2px 6px 2px 6px;
+  color: white;
+}
+.focus {
+  margin-bottom: 5px;
+}
+.core-sub-element {
+  border-left: 2px #016fb9 solid;
+  padding-left: 15px;
+  border-radius: 0px;
+  margin: 6px 0px 20px 5px;
+}
+.core-sub-element div {
+  width: 100%;
+}
+.core-sub-element .title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.core-sub-element .institution {
+  font-size: 20px;
+  font-weight: 600;
+}
+.core-sub-element-cert {
+  padding-left: 5px;
+  border-radius: 0px;
+}
+.year-tag {
+  font-size: 18px;
+  font-weight: 500;
+}
+.icon {
+  font-size: 15px;
+  vertical-align: middle;
+}
+#core a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
